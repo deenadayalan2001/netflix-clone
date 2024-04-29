@@ -8,8 +8,8 @@ body {
     margin: 0;
 }
 
-.hr-line{
-    border: 3px solid lightslategray;
+.hr-line {
+    border: 4px solid rgb(35, 35, 35);
     margin: 0;
     padding: 0;
 }
@@ -119,30 +119,125 @@ header .logo {
 }
 
 .movies-card>div {
-    padding-top:40px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.content{
+.content {
     margin-left: 5rem;
     width: 100%;
 }
 
-.content-header{
+.content-header {
     font-size: 3rem;
 }
 
-.content-2{
+.content-2 {
     font-size: 150%;
 }
-.image-data{
+
+.image-data {
     width: 350px;
     height: 350px;
     margin-inline: 10rem;
     align-items: center;
 }
 
-.Asked-Questions{
+.Asked-Questions {
     background-color: black;
     color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.Questions {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.text-content {
+    font-size: 30px;
+}
+
+.details {
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+.details-reference {
+    color: white;
+    /* height: 230px; */
+    display: flex;
+    list-style-type: none;
+}
+
+.call-number {
+    margin: 0px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.first-division {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.second-division {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.third-division {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.forth-divisionf {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.fqa {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+
+.fqa>a,
+.investor-Relations>a,
+.jobs>a,
+.media-center>a {
+    color: white;
+}
+
+.investor-Relations {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+
+.jobs {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+
+.media-center {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
 }
