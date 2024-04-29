@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hr-line{
+    border: 3px solid lightslategray;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utils */
+.d-flex {
+    display: flex;
+}
+
+.page-container {
+    margin-inline: 10rem;
+}
+
+header {
+    justify-content: space-between;
+    padding-block: 1rem;
+    align-items: center;
+
+}
+
+header .logo {
+    width: 9.25rem;
+    height: 2.5rem;
+}
+
+.signin {
+    color: white;
+    padding: 8px 15px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.language {
+    background: transparent;
+    color: darkgray;
+    height: 33px;
+    width: 7rem;
+    margin-right: 1rem;
+    background: transparent;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.hero-container {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.6) 100%), url("/assets/netflixbackgroung.jpg");
+    height: 160vh;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+}
+
+.first-line {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.second-line {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.thied-line {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.input-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    margin-right: 7px;
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-size: 1rem;
+    height: 55px;
+    width: 400px;
+    opacity: 0.5;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border: 2px;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 15%;
+}
+
+.movies-card {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.movies-card>div {
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.content{
+    margin-left: 5rem;
+    width: 100%;
+}
+
+.content-header{
+    font-size: 3rem;
+}
+
+.content-2{
+    font-size: 150%;
+}
+.image-data{
+    width: 350px;
+    height: 350px;
+    margin-inline: 10rem;
+    align-items: center;
+}
+
+.Asked-Questions{
+    background-color: black;
+    color: white;
+}

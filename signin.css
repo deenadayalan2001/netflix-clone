@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.6) 100%), url("/assets/netflixbackgroung.jpg");
+    /* height: 100vh; */
+}
+
+.logo {
+    margin-left: 10rem;
+    width: 9.25rem;
+    height: 2.5rem;
+    margin-top: 25px;
+}
+
+.form {
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 36%;
+    height: 700px;
+    padding: 50px 50px;
+    margin-top: 50px;
+
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+/* .center-content {
+    text-align: center;
+} */
+
+.heading-signin{
+    font-weight: 700;
+}
+
+.form-inside {
+    margin: 20px;
+}
+
+.email {
+    color: white;
+    height: 30px;
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.signin_btn {
+    color: white;
+    width: 100%;
+    padding: 12px;
+    margin: auto;
+    background-color: red;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.signin-options-alignment {
+    text-align: center;
+}
+
+.sign-in {
+    color: white;
+    width: 100%;
+    padding: 12px;
+    margin: auto;
+    text-decoration: none;
+    background: rgba(128, 128, 128, 0.3);
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    padding-bottom: 20px;
+    display: block;
+    color: white;
+}
+
+.forgot-password:hover, .sign-in-now:hover {
+    text-decoration: underline;
+}
+
+.sign-in-now {
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.learn-more {
+    text-decoration: none;
+}
+
+.recapcha {
+    color: #8c8c8c;
+    font-size: 13px;
+}
